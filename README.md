@@ -15,6 +15,9 @@ Check byte is used to prevent situation where some of 3 bytes is lost and arduin
 - Save, load values of seekbars
 - Color choosing by selecting color from color picker
 
+## Video
+[![Dmx showcase video](http://img.youtube.com/vi/GR3v3LT25qU/0.jpg)](http://www.youtube.com/watch?v=GR3v3LT25qU)
+
 ## Screenshots
 ![Wololo](/../master/screenshots/dmx11.png?raw=true "Wolololo!")
 ![Wololo](/../master/screenshots/dmx3.png?raw=true "Wolololo!")
