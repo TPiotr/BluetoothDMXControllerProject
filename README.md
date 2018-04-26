@@ -6,7 +6,7 @@ bluetooth module, DMX module and smartphone with Android system. Android app wri
 
 (Arduino circuit allows to use max 256 channels (because channel index is send as one byte of data))
 
-## How communication work
+## How communication works
 1 command is build from **3 bytes (1 byte - check byte (default 99), 2 byte - channel index, 3 byte - channel value)** 
 
 Check byte is used to prevent situation where some of 3 bytes is lost and arduino will read remaining bytes as totally random value
