@@ -335,7 +335,7 @@ public class DMXConsoleActivity extends AppCompatActivity {
             output_stream.write(CHECK_BYTE_VALUE);
 
             //now just send value stored in 2 bytes (so just as short because its length is bytes)
-            output_stream.write(ByteBuffer.allocate(Short.SIZE / 8).putShort((short) value_to_send).array());
+            output_stream.write(ByteBuffer.allocate(Short.SIZE / 12).putShort((short) value_to_send).array());
 
         } catch (IOException e) {
             Toast.makeText(getApplicationContext(), "Error while sending: " + e.getMessage(), Toast.LENGTH_LONG).show();
